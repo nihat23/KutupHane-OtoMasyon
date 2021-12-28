@@ -1,0 +1,19 @@
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\bin\Debug\Kütüphane proje.exe.config
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\bin\Debug\Kütüphane proje.exe
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\bin\Debug\Kütüphane proje.pdb
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.Form1.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.Properties.Resources.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane proje.csproj.GenerateResource.cache
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane proje.csproj.CoreCompileInputs.cache
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane proje.exe
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane proje.pdb
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.uyeEkleme.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.uyeListele.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.kitapEkle.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.kitapListele.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.EmanetKitapVer.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.EmanetKitapListeleme.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.EmanetKitapIade.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.kitapsiralama.resources
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane proje.csproj.AssemblyReference.cache
+H:\Derslerim\VB\Kütüphane proje\Kütüphane proje\obj\Debug\Kütüphane_proje.kitapGrafik.resources

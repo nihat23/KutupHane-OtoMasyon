@@ -91,7 +91,7 @@ namespace Kütüphane_proje
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.ComboBox cmbFiltrele;
+        public System.Windows.Forms.DataGridView dataGridView1;
     }
 }

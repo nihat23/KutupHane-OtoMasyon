@@ -50,80 +50,85 @@ namespace Kütüphane_proje
             // 
             // btnUyeEkle
             // 
+            this.btnUyeEkle.BackColor = System.Drawing.Color.Orange;
             this.btnUyeEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUyeEkle.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnUyeEkle.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnUyeEkle.Location = new System.Drawing.Point(141, 600);
+            this.btnUyeEkle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnUyeEkle.Location = new System.Drawing.Point(23, 603);
             this.btnUyeEkle.Name = "btnUyeEkle";
-            this.btnUyeEkle.Size = new System.Drawing.Size(139, 47);
+            this.btnUyeEkle.Size = new System.Drawing.Size(110, 47);
             this.btnUyeEkle.TabIndex = 0;
-            this.btnUyeEkle.Text = "Üye Ekleme";
-            this.btnUyeEkle.UseVisualStyleBackColor = true;
+            this.btnUyeEkle.Text = "Üye Ekle";
+            this.btnUyeEkle.UseVisualStyleBackColor = false;
             this.btnUyeEkle.Click += new System.EventHandler(this.btnUyeEkle_Click);
             // 
             // btnUyeListele
             // 
+            this.btnUyeListele.BackColor = System.Drawing.Color.DarkGreen;
             this.btnUyeListele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnUyeListele.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnUyeListele.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnUyeListele.Location = new System.Drawing.Point(286, 600);
+            this.btnUyeListele.Location = new System.Drawing.Point(147, 603);
             this.btnUyeListele.Name = "btnUyeListele";
             this.btnUyeListele.Size = new System.Drawing.Size(135, 47);
             this.btnUyeListele.TabIndex = 1;
             this.btnUyeListele.Text = "Üye Listele";
-            this.btnUyeListele.UseVisualStyleBackColor = true;
+            this.btnUyeListele.UseVisualStyleBackColor = false;
             this.btnUyeListele.Click += new System.EventHandler(this.btnUyeListele_Click);
             // 
             // btnKitapListele
             // 
+            this.btnKitapListele.BackColor = System.Drawing.Color.DarkGreen;
             this.btnKitapListele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKitapListele.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKitapListele.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnKitapListele.Location = new System.Drawing.Point(567, 603);
+            this.btnKitapListele.Location = new System.Drawing.Point(444, 603);
             this.btnKitapListele.Name = "btnKitapListele";
             this.btnKitapListele.Size = new System.Drawing.Size(134, 47);
             this.btnKitapListele.TabIndex = 3;
             this.btnKitapListele.Text = "Kitap Listele";
-            this.btnKitapListele.UseVisualStyleBackColor = true;
+            this.btnKitapListele.UseVisualStyleBackColor = false;
             this.btnKitapListele.Click += new System.EventHandler(this.btnKitapListele_Click);
             // 
             // btnKitapEkle
             // 
+            this.btnKitapEkle.BackColor = System.Drawing.Color.Orange;
             this.btnKitapEkle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKitapEkle.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKitapEkle.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnKitapEkle.Location = new System.Drawing.Point(427, 600);
+            this.btnKitapEkle.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnKitapEkle.Location = new System.Drawing.Point(296, 603);
             this.btnKitapEkle.Name = "btnKitapEkle";
             this.btnKitapEkle.Size = new System.Drawing.Size(134, 47);
             this.btnKitapEkle.TabIndex = 2;
             this.btnKitapEkle.Text = "Kitap Ekle";
-            this.btnKitapEkle.UseVisualStyleBackColor = true;
+            this.btnKitapEkle.UseVisualStyleBackColor = false;
             this.btnKitapEkle.Click += new System.EventHandler(this.btnKitapEkle_Click);
             // 
             // EmanetKitapListele
             // 
+            this.EmanetKitapListele.BackColor = System.Drawing.Color.DarkGreen;
             this.EmanetKitapListele.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.EmanetKitapListele.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.EmanetKitapListele.ForeColor = System.Drawing.SystemColors.Control;
-            this.EmanetKitapListele.Location = new System.Drawing.Point(851, 603);
+            this.EmanetKitapListele.Location = new System.Drawing.Point(734, 603);
             this.EmanetKitapListele.Name = "EmanetKitapListele";
-            this.EmanetKitapListele.Size = new System.Drawing.Size(140, 47);
+            this.EmanetKitapListele.Size = new System.Drawing.Size(114, 47);
             this.EmanetKitapListele.TabIndex = 5;
             this.EmanetKitapListele.Text = "Emanet Kitap Listele";
-            this.EmanetKitapListele.UseVisualStyleBackColor = true;
+            this.EmanetKitapListele.UseVisualStyleBackColor = false;
             this.EmanetKitapListele.Click += new System.EventHandler(this.EmanetKitapListele_Click);
             // 
             // btnEmanetKitapVer
             // 
-            this.btnEmanetKitapVer.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnEmanetKitapVer.BackColor = System.Drawing.Color.Red;
             this.btnEmanetKitapVer.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEmanetKitapVer.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnEmanetKitapVer.Location = new System.Drawing.Point(12, 597);
+            this.btnEmanetKitapVer.Location = new System.Drawing.Point(862, 597);
             this.btnEmanetKitapVer.Name = "btnEmanetKitapVer";
-            this.btnEmanetKitapVer.Size = new System.Drawing.Size(123, 53);
+            this.btnEmanetKitapVer.Size = new System.Drawing.Size(108, 53);
             this.btnEmanetKitapVer.TabIndex = 4;
             this.btnEmanetKitapVer.Text = "Emanet Kitap Ver";
-            this.btnEmanetKitapVer.UseVisualStyleBackColor = true;
+            this.btnEmanetKitapVer.UseVisualStyleBackColor = false;
             this.btnEmanetKitapVer.Click += new System.EventHandler(this.btnEmanetKitapVer_Click);
             // 
             // brnSirala
@@ -131,7 +136,7 @@ namespace Kütüphane_proje
             this.brnSirala.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.brnSirala.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.brnSirala.ForeColor = System.Drawing.SystemColors.Control;
-            this.brnSirala.Location = new System.Drawing.Point(997, 603);
+            this.brnSirala.Location = new System.Drawing.Point(984, 603);
             this.brnSirala.Name = "brnSirala";
             this.brnSirala.Size = new System.Drawing.Size(99, 47);
             this.brnSirala.TabIndex = 7;
@@ -141,15 +146,16 @@ namespace Kütüphane_proje
             // 
             // btnKitapIade
             // 
+            this.btnKitapIade.BackColor = System.Drawing.Color.Crimson;
             this.btnKitapIade.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnKitapIade.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKitapIade.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnKitapIade.Location = new System.Drawing.Point(707, 603);
+            this.btnKitapIade.Location = new System.Drawing.Point(592, 603);
             this.btnKitapIade.Name = "btnKitapIade";
-            this.btnKitapIade.Size = new System.Drawing.Size(138, 47);
+            this.btnKitapIade.Size = new System.Drawing.Size(128, 47);
             this.btnKitapIade.TabIndex = 6;
             this.btnKitapIade.Text = "Emanet Kitap İade";
-            this.btnKitapIade.UseVisualStyleBackColor = true;
+            this.btnKitapIade.UseVisualStyleBackColor = false;
             this.btnKitapIade.Click += new System.EventHandler(this.btnKitapIade_Click);
             // 
             // btnGrafik
@@ -157,7 +163,7 @@ namespace Kütüphane_proje
             this.btnGrafik.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnGrafik.Font = new System.Drawing.Font("Georgia", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGrafik.ForeColor = System.Drawing.SystemColors.Control;
-            this.btnGrafik.Location = new System.Drawing.Point(1105, 600);
+            this.btnGrafik.Location = new System.Drawing.Point(1097, 603);
             this.btnGrafik.Name = "btnGrafik";
             this.btnGrafik.Size = new System.Drawing.Size(99, 47);
             this.btnGrafik.TabIndex = 16;
@@ -168,7 +174,7 @@ namespace Kütüphane_proje
             // emanetKitapIade1
             // 
             this.emanetKitapIade1.BackColor = System.Drawing.Color.Teal;
-            this.emanetKitapIade1.Location = new System.Drawing.Point(12, 5);
+            this.emanetKitapIade1.Location = new System.Drawing.Point(12, 17);
             this.emanetKitapIade1.Name = "emanetKitapIade1";
             this.emanetKitapIade1.Size = new System.Drawing.Size(1192, 574);
             this.emanetKitapIade1.TabIndex = 15;
@@ -176,9 +182,9 @@ namespace Kütüphane_proje
             // emanetKitapListeleme1
             // 
             this.emanetKitapListeleme1.BackColor = System.Drawing.Color.Teal;
-            this.emanetKitapListeleme1.Location = new System.Drawing.Point(12, 12);
+            this.emanetKitapListeleme1.Location = new System.Drawing.Point(-2, 5);
             this.emanetKitapListeleme1.Name = "emanetKitapListeleme1";
-            this.emanetKitapListeleme1.Size = new System.Drawing.Size(1207, 567);
+            this.emanetKitapListeleme1.Size = new System.Drawing.Size(1206, 567);
             this.emanetKitapListeleme1.TabIndex = 14;
             // 
             // emanetKitapVer1

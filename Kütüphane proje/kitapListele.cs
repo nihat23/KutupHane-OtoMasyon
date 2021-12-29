@@ -77,8 +77,8 @@ namespace Kütüphane_proje
             else
             {
                 _baglan.Open();
-                SqlCommand komut = new SqlCommand("delete from kitap where tc=@tc ", _baglan);
-                komut.Parameters.AddWithValue("@tc", dataGridView1.CurrentRow.Cells["tc"].Value.ToString());
+                SqlCommand komut = new SqlCommand("delete from kitap where barkodno=@barkodno ", _baglan);
+                komut.Parameters.AddWithValue("@barkodno", dataGridView1.CurrentRow.Cells["barkodno"].Value.ToString());
                 komut.ExecuteNonQuery();
                 _baglan.Close();
                 MessageBox.Show("Kayıt Silindi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);

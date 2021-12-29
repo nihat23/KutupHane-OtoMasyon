@@ -109,11 +109,10 @@ namespace Kütüphane_proje
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnTeslimAl;
         private System.Windows.Forms.TextBox txtTcAra;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
+        public System.Windows.Forms.DataGridView dataGridView1;
     }
 }

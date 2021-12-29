@@ -47,7 +47,7 @@ namespace Kütüphane_proje
             {
                 _baglan.Open();
 
-                SqlCommand komut = new SqlCommand("insert into uye values(@tc,@adsoyad,@yas,@cinsiyet,@telefon,@adres,@mail,@okukitapsayisi,@tarih)", _baglan);
+                SqlCommand komut = new SqlCommand("insert into uye values(@tc,@adsoyad,@yas,@cinsiyet,@telefon,@adres,@mail,@okukitapsayisi)", _baglan);
                 komut.Parameters.AddWithValue("@tc", txtTc.Text);
                 komut.Parameters.AddWithValue("@adsoyad", txtAdSoyad.Text);
                 komut.Parameters.AddWithValue("@yas", txtYas.Text);
@@ -56,7 +56,7 @@ namespace Kütüphane_proje
                 komut.Parameters.AddWithValue("@adres", txtAdres.Text);
                 komut.Parameters.AddWithValue("@mail", txtMail.Text);
                 komut.Parameters.AddWithValue("@okukitapsayisi", int.Parse(txtK_Sayi.Text));
-                komut.Parameters.AddWithValue("@tarih", DateTime.Now.ToShortDateString());
+               // komut.Parameters.AddWithValue("@tarih", DateTime.Now.ToShortDateString());
                 komut.ExecuteNonQuery();
                 _baglan.Close();
                 MessageBox.Show("Kayıt Eklendi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);

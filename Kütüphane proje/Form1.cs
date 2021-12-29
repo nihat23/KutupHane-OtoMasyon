@@ -79,6 +79,11 @@ namespace Kütüphane_proje
             emanetKitapIade1.Hide();
 
             SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
 
 
 
@@ -89,7 +94,7 @@ namespace Kütüphane_proje
             UyeListeleme();//çagır
             emanetKitapVer1.KitapSayisi();
 
-           // KitapSayisi();
+            // KitapSayisi();
 
             uyeListele1.Show();
             uyeEkleme1.Hide();
@@ -100,6 +105,11 @@ namespace Kütüphane_proje
             emanetKitapIade1.Hide();
 
             SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
 
 
         }
@@ -117,7 +127,13 @@ namespace Kütüphane_proje
             emanetKitapListeleme1.Hide();
             emanetKitapIade1.Hide();
 
+
             SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
         }
 
         private void uyeListele1_Load(object sender, EventArgs e)
@@ -137,13 +153,15 @@ namespace Kütüphane_proje
             emanetKitapIade1.Hide();
 
             SepetListeleme();
-
-
+            KitapListeleme();
+            UyeListeleme();
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
         }
 
         private void btnKitapListele_Click(object sender, EventArgs e)
         {
-            KitapListeleme();
 
             kitapListele1.Show();
 
@@ -154,8 +172,13 @@ namespace Kütüphane_proje
             emanetKitapListeleme1.Hide();
             emanetKitapIade1.Hide();
 
-            SepetListeleme();
 
+            SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
         }
 
         private void kitapListele1_Load(object sender, EventArgs e)
@@ -165,15 +188,23 @@ namespace Kütüphane_proje
 
         private void btnEmanetKitapVer_Click(object sender, EventArgs e)
         {
-            SepetListeleme();
-
             emanetKitapVer1.Show();
+
             uyeListele1.Hide();
             uyeEkleme1.Hide();
             kitapEkle1.Hide();
             kitapListele1.Hide();
             emanetKitapListeleme1.Hide();
             emanetKitapIade1.Hide();
+
+
+            SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
 
         }
 
@@ -188,6 +219,12 @@ namespace Kütüphane_proje
             emanetKitapIade1.Hide();
 
             SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
         }
 
         private void btnKitapIade_Click(object sender, EventArgs e)
@@ -200,7 +237,13 @@ namespace Kütüphane_proje
             kitapEkle1.Hide();
             kitapListele1.Hide();
             emanetKitapListeleme1.Hide();
+
             SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
 
         }
 
@@ -209,12 +252,29 @@ namespace Kütüphane_proje
             kitapSiralama kitapSiralama = new kitapSiralama();
             kitapSiralama.Show();
 
+
+            SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
+
         }
 
         private void btnGrafik_Click(object sender, EventArgs e)
         {
             kitapGrafik kitapGrafik = new kitapGrafik();
             kitapGrafik.ShowDialog();
+
+            SepetListeleme();
+            KitapListeleme();
+            UyeListeleme();
+
+            emanetKitapVer1.KitapSayisi();
+            emanetKitapListeleme1.EmanetKitapListele();
+            emanetKitapIade1.EmanetKitapIadee();
+
         }
     }
 }
